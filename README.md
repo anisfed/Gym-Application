@@ -30,7 +30,7 @@
  
 
 <h2 align="left">Some Images</h2>
-<p align="left">Interface of App</p>
+<p align="left">Interface of App:</p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <img src="https://github.com/user-attachments/assets/f807e795-82d0-450c-ba6f-0bc1a8a18351" alt="Interface Image 1" style="width: calc(20% - 10px); height: auto;">
@@ -44,7 +44,7 @@
     <img src="https://github.com/user-attachments/assets/0d17fd7e-7d9d-4d68-ac78-0241f5e28248" alt="Interface Image 9" style="width: calc(20% - 10px); height: auto;">
 </div>
 
-<p align="left">Back-End of App</p>
+<p align="left">Back-End of App:</p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <img src="https://github.com/user-attachments/assets/bafed2a1-c96e-4180-8385-fffab7977ddb" alt="Back-End Image 1" style="width: calc(40% - 10px); height: auto;">
