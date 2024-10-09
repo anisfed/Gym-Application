@@ -21,6 +21,11 @@
 • Back-end: PostgreSQL (for authentication and real-time data management)<br>
 • Other Tools: Docker, Git...</p>
 
+<h2 align="left">Design and Development of PowerClub Gym</h2>
+
+[memoire powerclubgym.pdf](https://github.com/user-attachments/files/17308727/memoire.powerclubgym.pdf)
+
+
 <h2 align="left">Some Images</h2>
 <p align="left">Interface of App</p>
 
