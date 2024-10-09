@@ -1,0 +1,145 @@
+2024-03-05 16:50:52 [INFO] __main__: Info: Application is starting.
+2024-03-05 16:50:54 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-05 16:54:26 [ERROR] app.api.endpoints.lora_integrator_endpoint: AgsCraftKitBaseException: Shape file not found, details: None
+2024-03-05 16:55:02 [ERROR] app.api.endpoints.lora_integrator_endpoint: AgsCraftKitBaseException: Shape file not found, details: None
+2024-03-05 16:56:50 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-05 16:57:48 [INFO] app.api.endpoints.lora_integrator_endpoint: Shape ./shp_testshp_test/LORA_SAR_3lines.shp
+2024-03-05 16:57:48 [ERROR] app.api.endpoints.lora_integrator_endpoint: AgsCraftKitBaseException: Shape file not found, details: None
+2024-03-05 16:58:46 [INFO] app.api.endpoints.lora_integrator_endpoint: Shape ./shp_testLORA_SAR_3lines.shp
+2024-03-05 16:58:46 [ERROR] app.api.endpoints.lora_integrator_endpoint: AgsCraftKitBaseException: Shape file not found, details: None
+2024-03-05 16:59:11 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-05 16:59:24 [INFO] __main__: Info: Application is starting.
+2024-03-05 16:59:26 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-05 16:59:42 [INFO] app.api.endpoints.lora_integrator_endpoint: Shape =  ./shp_test/LORA_SAR_3lines.shp
+2024-03-05 16:59:42 [INFO] app.database.oracle_connector: checking table existence: LORA_SAR
+2024-03-05 16:59:43 [DEBUG] app.database.oracle_connector: SELECT table_name FROM user_tables WHERE table_name = 'LORA_SAR'
+2024-03-05 16:59:44 [INFO] app.services.lora_integrator: Integrating data from ./shp_test/LORA_SAR_3lines.shp to database...
+2024-03-05 16:59:44 [DEBUG] fiona.session: Could not import boto3, continuing with reduced functionality.
+2024-03-05 16:59:44 [DEBUG] fiona.env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 16:59:44 [DEBUG] fiona.env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 16:59:44 [DEBUG] fiona._env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 16:59:44 [DEBUG] fiona._env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 16:59:44 [DEBUG] fiona._env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 16:59:44 [DEBUG] fiona._env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 16:59:44 [DEBUG] fiona._env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 16:59:44 [DEBUG] fiona._env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: Got coordinate system
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: Got coordinate system
+2024-03-05 16:59:44 [DEBUG] fiona.crs: Matched. confidence=100, c_code=b'4326', c_name=b'EPSG'
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: OLC_FASTSETNEXTBYINDEX: 1
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: OLC_FASTFEATURECOUNT: 1
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: Next index: 0
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: Next index: 1
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: Next index: 2
+2024-03-05 16:59:44 [DEBUG] fiona.ogrext: Next index: 3
+2024-03-05 16:59:45 [DEBUG] fiona.collection: Flushed buffer
+2024-03-05 16:59:45 [DEBUG] fiona.collection: Stopped session
+2024-03-05 16:59:46 [INFO] app.services.lora_integrator: number of rows before loading data: 6483295
+2024-03-05 16:59:46 [INFO] app.services.lora_integrator: number of objects to add: 3
+2024-03-05 16:59:47 [INFO] app.services.lora_integrator: Simple parts integrated: ok
+2024-03-05 16:59:48 [INFO] app.services.lora_integrator: Number of rows after loading data: 6483298
+2024-03-05 17:02:21 [INFO] app.api.endpoints.lora_integrator_endpoint: Shape =  ./shp_test/LORA_SAR_3lines.shp
+2024-03-05 17:02:21 [INFO] app.database.oracle_connector: checking table existence: LORA_SAR
+2024-03-05 17:02:22 [DEBUG] app.database.oracle_connector: SELECT table_name FROM user_tables WHERE table_name = 'LORA_SAR'
+2024-03-05 17:02:22 [INFO] app.services.lora_integrator: Integrating data from ./shp_test/LORA_SAR_3lines.shp to database...
+2024-03-05 17:02:22 [DEBUG] fiona._env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 17:02:22 [DEBUG] fiona._env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 17:02:22 [DEBUG] fiona._env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 17:02:22 [DEBUG] fiona._env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: Got coordinate system
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: Got coordinate system
+2024-03-05 17:02:22 [DEBUG] fiona.crs: Matched. confidence=100, c_code=b'4326', c_name=b'EPSG'
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: OLC_FASTSETNEXTBYINDEX: 1
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: OLC_FASTFEATURECOUNT: 1
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: Next index: 0
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: Next index: 1
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: Next index: 2
+2024-03-05 17:02:22 [DEBUG] fiona.ogrext: Next index: 3
+2024-03-05 17:02:22 [DEBUG] fiona.collection: Flushed buffer
+2024-03-05 17:02:22 [DEBUG] fiona.collection: Stopped session
+2024-03-05 17:02:23 [INFO] app.services.lora_integrator: number of rows before loading data: 6483298
+2024-03-05 17:02:23 [INFO] app.services.lora_integrator: number of objects to add: 3
+2024-03-05 17:02:24 [INFO] app.services.lora_integrator: Simple parts integrated: ok
+2024-03-05 17:02:25 [INFO] app.services.lora_integrator: Number of rows after loading data: 6483301
+2024-03-05 17:03:19 [INFO] app.api.endpoints.lora_integrator_endpoint: Shape =  ./shp_test/shp_0line.shp
+2024-03-05 17:03:19 [INFO] app.database.oracle_connector: checking table existence: LORA_SAR
+2024-03-05 17:03:20 [DEBUG] app.database.oracle_connector: SELECT table_name FROM user_tables WHERE table_name = 'LORA_SAR'
+2024-03-05 17:03:20 [INFO] app.services.lora_integrator: Integrating data from ./shp_test/shp_0line.shp to database...
+2024-03-05 17:03:20 [DEBUG] fiona._env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 17:03:20 [DEBUG] fiona._env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 17:03:20 [DEBUG] fiona._env: GDAL data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/gdal_data'.
+2024-03-05 17:03:20 [DEBUG] fiona._env: PROJ data found in package: path='/usr/local/lib/python3.12/site-packages/fiona/proj_data'.
+2024-03-05 17:03:20 [DEBUG] fiona.ogrext: Got coordinate system
+2024-03-05 17:03:20 [DEBUG] fiona.ogrext: Got coordinate system
+2024-03-05 17:03:20 [DEBUG] fiona.crs: Matched. confidence=100, c_code=b'4326', c_name=b'EPSG'
+2024-03-05 17:03:20 [DEBUG] fiona.ogrext: OLC_FASTSETNEXTBYINDEX: 1
+2024-03-05 17:03:20 [DEBUG] fiona.ogrext: OLC_FASTFEATURECOUNT: 1
+2024-03-05 17:03:20 [DEBUG] fiona.ogrext: Next index: 0
+2024-03-05 17:03:20 [DEBUG] fiona.collection: Flushed buffer
+2024-03-05 17:03:20 [DEBUG] fiona.collection: Stopped session
+2024-03-05 17:03:20 [ERROR] app.api.endpoints.lora_integrator_endpoint: AgsCraftKitBaseException: Shape does not contain polygons, details: None
+2024-03-06 10:02:58 [INFO] __main__: Info: Application is starting.
+2024-03-06 10:03:00 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-06 10:05:09 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-06 10:10:52 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-06 10:10:55 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-06 10:11:02 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-06 10:11:29 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-06 10:12:58 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-06 10:21:02 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:24:19 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:29:25 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:34:37 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:34:43 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:36:43 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:39:54 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:40:05 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 10:44:07 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 11:53:08 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 11:53:29 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 11:58:43 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 12:08:05 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 12:14:31 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:15:28 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:23:54 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:36:32 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:36:49 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:37:45 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:39:05 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:39:26 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:39:31 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:39:35 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:39:51 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:40:47 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:43:18 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:43:36 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:44:07 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:46:19 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:46:25 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:46:28 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:47:19 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:47:34 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:48:09 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:49:31 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:49:41 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:51:06 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:51:15 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:53:33 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:58:03 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:58:23 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:58:29 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 14:59:39 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:00:31 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:01:08 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:01:13 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:01:25 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:01:35 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:01:48 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:02:20 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:02:31 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:03:44 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:03:59 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:04:03 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:05:25 [DEBUG] asyncio: Using selector: EpollSelector
+2024-03-08 15:24:22 [INFO] __main__: Info: Application is starting.
+2024-03-08 15:24:26 [DEBUG] asyncio: Using selector: EpollSelector

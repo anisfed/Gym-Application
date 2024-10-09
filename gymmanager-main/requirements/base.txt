@@ -1,0 +1,31 @@
+# Include python dependencies required to use your package on production
+# A few definitions:
+# - internal dependencies: internals are the ones we code ourselves @AXIONE.
+# - external dependencies: well, the others.
+# - main dependencies: the ones that we import and use on our python files.
+# - strict versions: set by ==
+# - ranged versions: set by <=A.B.C,>D.E.F
+#
+# Common rules
+# - all deps required by tests must be added in test.txt not here.
+# - all deps required by dev must be added in dev.txt not here.
+# - all external main deps are versioned with strict versions.
+# - all internal main deps are versioned with ranged versions for more flexibility: X.Y.Z.Aplha
+#   The Alpha is the distance from the last release
+#   Z is for an evolution that don't break
+#   Y may break the behavior
+#   X major refactoring/new version
+#   and for internal, we need to have >=X.Y.0,<X.Y+1.0
+
+
+
+# ******************* - external dependencies
+
+pydantic==2.6.1
+pydantic-settings==2.1.0
+python-dotenv==1.0.1
+
+# API requirements
+uvicorn==0.27.0.post1
+fastapi==0.109.2
+
