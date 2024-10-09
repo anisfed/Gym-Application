@@ -22,9 +22,10 @@
 • Other Tools: Docker, Git...</p>
 
 <h2 align="left">Design and Development of PowerClub Gym</h2>
+<p align="left">Here is the PDF</p>[memoire powerclubgym.pdf](https://github.com/user-attachments/files/17308727/memoire.powerclubgym.pdf)
 
-[memoire powerclubgym.pdf](https://github.com/user-attachments/files/17308727/memoire.powerclubgym.pdf)
 
+ 
 
 <h2 align="left">Some Images</h2>
 <p align="left">Interface of App</p>
